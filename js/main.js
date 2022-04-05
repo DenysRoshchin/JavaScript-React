@@ -10,15 +10,10 @@ let movieDB = {
     privat: false
 };
 
-let movieName = prompt('Name');
-let movieRait = prompt('Rait');
+let movieName = prompt('Name'),
+    movieRait = prompt('Rait');
 
 movieDB.movies[movieName] = movieRait;
 
-
-console.log(movieName);
-console.log(movieRait);
-console.log(movieDB.movies);
-console.log(movieDB);
 
 
